@@ -102,6 +102,6 @@ def scream(words)
     return words + "!!!!!"
 end
 
-scream("Yipppeeee") # Yipeeee!!!!!
+scream("Yipppeeee") /Yipeeee!!!!!/
 
-#Only 1 argument has been entered when 2 are needed. 
+/Only 1 argument has been entered when 2 are needed./ 
