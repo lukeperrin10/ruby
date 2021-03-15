@@ -11,3 +11,8 @@ arr 1. arr.index(5) tells you that the number 5 is in postion 3 in the array
 arr 2. creates a NoMethodError
 arr 3. 8
 
+a = "e"
+b = "A"
+c = nil
+
+using in [] with a string inside does not work, changing it to names [3] = 'Judy' changes the postition. i.e Margaret becoming Judy. 
