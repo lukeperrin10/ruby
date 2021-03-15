@@ -2,8 +2,8 @@
 my_group = []
 
 person_1 = %w{Kim 30 Man}
-person_2 = %w{Kim 30 Man}
-person_3 = %w{Kim 30 Man}
+person_2 = %w{Jack 47 Man}
+person_3 = %w{Sophie 19 Woman}
 
 my_group = [person_1,person_2, person_3]
 
