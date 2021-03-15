@@ -21,3 +21,22 @@ d = {"a" => 20,"b" => 12,"c" => 88}
 e = {"c" => 2,"d" => 18} 
 
 f = d.merge!(e) # => {"a"=>20, "b"=>12, "c"=>2, "d"=>18} conflicting data is taken from variable in brackets.
+
+#for loop I used the family hash again. 
+
+#prints all keys
+for key in family.keys()
+    print key, " "
+end
+# prints values and keys 
+
+for key in family.keys()
+    print key, " ", family[key], "\n"
+end
+
+# prints values 
+
+for key in family.key()
+    print family[key], "\n"
+
+    
