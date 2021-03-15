@@ -19,3 +19,12 @@ b = "A"
 c = nil
 
 using in [] with a string inside does not work, changing it to names [3] = 'Judy' changes the postition. i.e Margaret becoming Judy. 
+
+########################################################################
+
+# ruby exercise part 2
+
+puts "#{person[:name]}
+
+x on first hash x: is a key and does not take on the variable string, unlike in second hash where x takes on variable value "hi there"
+
