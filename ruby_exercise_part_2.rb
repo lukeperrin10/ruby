@@ -10,4 +10,14 @@ close_family_k = ['parents', 'brothers', 'sisters']
 
 close_family = family.select {|key| close_family_k.include? key.to_s}
 
-prints close_family
+puts close_family 
+
+a = {"a" => 20,"b" => 12,"c" => 88}
+b = {"c" => 2,"d" => 18}
+
+c = b.merge(a) # => {"c"=>88, "d"=>18, "a"=>20, "b"=>12} 
+
+d = {"a" => 20,"b" => 12,"c" => 88}
+e = {"c" => 2,"d" => 18} 
+
+f = d.merge!(e) # => {"a"=>20, "b"=>12, "c"=>2, "d"=>18} conflicting data is taken from variable in brackets.
