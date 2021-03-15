@@ -39,4 +39,34 @@ end
 for key in family.key()
     print family[key], "\n"
 
-    
+############################3
+
+#Flow control
+
+puts "please input a phrase equal to or greater than 10 characters"
+
+input = gets.chomp
+
+if input.length >= 10 
+    puts input.upcase
+else
+    puts "please try again, you have entered less that 10 characters"
+end
+
+
+puts "enter a number between 1 and 100"
+
+number = gets.to_i
+
+case number
+when 0..50
+    puts 'your number is between 0 and 50'
+when 51..100
+    puts 'your number is between 51 and 100'
+else
+    if number > 100
+        puts "your number is great than 100"
+    else
+        puts "your number #{number} is not in this scope "
+    end
+end
