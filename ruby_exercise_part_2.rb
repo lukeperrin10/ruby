@@ -70,3 +70,38 @@ else
         puts "your number #{number} is not in this scope "
     end
 end
+
+#True
+#Did you get it right?
+#alrighty
+
+# the definition isn't closed. should look like this 
+
+def equal_to_four(x)
+    if x == 4
+        puts "yup"
+    else
+        puts "nope"
+    end
+end
+
+
+def greeting (name)
+    return "Hello there " + name
+end
+
+greeting(Luke)
+
+def multiply (a,b)
+    return a*b
+end
+
+multiply (3, 4)
+
+def scream(words)
+    return words + "!!!!!"
+end
+
+scream("Yipppeeee") # Yipeeee!!!!!
+
+#Only 1 argument has been entered when 2 are needed. 
